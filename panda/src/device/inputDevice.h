@@ -78,6 +78,14 @@ PUBLISHED:
     // Head-mounted display.
     hmd,
 
+    // Hand controllers for virtual reality
+    left_hand,
+    right_hand,
+
+    // This counts as any generic virtual reality tracked device that does
+    // not fall under a specific category
+    generic_tracker,
+
     // 3D mouse, such as produced by 3Dconnexion.
     spatial_mouse,
   };
